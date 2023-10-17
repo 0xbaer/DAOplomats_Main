@@ -1,6 +1,7 @@
 import { Helvetica } from "./fonts";
+import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
-export default function Button({ className, label, onClick }) {
+export default function Button({ className, label, onClick, icon = false }) {
   return (
     <button
       className={
@@ -9,7 +10,12 @@ export default function Button({ className, label, onClick }) {
       }
       onClick={onClick}
     >
-      <p className={"text-[18px] " + Helvetica.className}>{label}</p>
+      <p className={"text-[18px] " + Helvetica.className}>
+        {label}
+        {icon && (
+          <ArrowUpRightIcon className="inline-block ml-[10px] w-[20px] h-[20px] text-[#FCFBEB]" />
+        )}
+      </p>
     </button>
   );
 }

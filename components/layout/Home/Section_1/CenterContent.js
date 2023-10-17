@@ -1,6 +1,7 @@
 import Button from "@/components/ui/Button";
 import { Philosopher, Helvetica } from "@/components/ui/fonts";
 import Image from "next/image";
+import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export default function CenterContent() {
   return (
@@ -11,7 +12,8 @@ export default function CenterContent() {
         </h1>
         <h1
           className={
-            "text-[140px] text-[#FCFBEB] -mt-[70px] " + Philosopher.className
+            "text-[140px] text-[#FCFBEB] -mt-[70px] text-center " +
+            Philosopher.className
           }
         >
           Solved Professionally
@@ -26,7 +28,7 @@ export default function CenterContent() {
             id <br />
             feugiat tellus.
           </p>
-          <Button label={"Delegate"} />
+          <Button label={"Delegate"} icon={true} />
         </div>
       </div>
       <Image
