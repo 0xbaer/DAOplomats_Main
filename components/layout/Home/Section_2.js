@@ -34,7 +34,7 @@ export default function Section_2() {
             </p>
           </div>
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
-            <p
+            <div
               className={
                 "text-[120px] leading-[125px] relative " + Philosopher.className
               }
@@ -48,7 +48,7 @@ export default function Section_2() {
               >
                 +
               </p>
-            </p>
+            </div>
             <p className={"text-[28px] text-center " + Urbanist.className}>
               Years on the market
             </p>
