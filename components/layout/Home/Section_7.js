@@ -22,12 +22,12 @@ export default function Section_7() {
                     Said
                 </h1>
                 <div className="bg-[#333333]">
-                    <p className="text-[#FCFBEB] p-10 w-[624.98px] font-normal">
+                    <div className="text-[#FCFBEB] p-10 w-[624.98px] font-normal">
                         Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tellus. Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tel.
                         Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tellus. Donec luctus orci eros.
                         <h1 className="text-[18px] font-medium mt-3">Delina Shmicell</h1>
                         <h2 className="text-[14px] font-light">Fashnap Model</h2>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
