@@ -26,20 +26,20 @@ export default function Section_8() {
         <div className="grid grid-cols-2 w-[70%] gap-[20px] mt-24 mb-5">
           <input
             type="name"
-            className="bg-[#333F3D] p-2 border border-[#FCFBEB30] text-gray-100 text-[16px]  focus:ring-1 focus:outline-none block w-full p-2.5 "
+            className="bg-[#333F3D] border border-[#FCFBEB30] text-gray-100 text-[16px]  focus:ring-1 focus:outline-none block w-full p-2.5 "
             placeholder="Your Name"
             required
           />
           <input
             type="email"
-            className="bg-[#333F3D] p-2 border border-[#FCFBEB30] text-gray-100 text-[16px]  focus:ring-1 focus:outline-none block w-full p-2.5 "
+            className="bg-[#333F3D] border border-[#FCFBEB30] text-gray-100 text-[16px]  focus:ring-1 focus:outline-none block w-full p-2.5 "
             placeholder="Your Mail"
             required
           />
         </div>
         <input
           type="name"
-          className="bg-[#333F3D] p-2 border border-[#FCFBEB30] text-gray-100 text-[16px]  focus:ring-1 focus:outline-none block w-[70%] p-2.5 mb-5 "
+          className="bg-[#333F3D] border border-[#FCFBEB30] text-gray-100 text-[16px]  focus:ring-1 focus:outline-none block w-[70%] p-2.5 mb-5 "
           placeholder="Main service you are interested"
           required
         />

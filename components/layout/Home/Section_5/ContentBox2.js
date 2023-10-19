@@ -18,6 +18,13 @@ export default function ContentBox2() {
           alt="logo_1"
           className="absolute bottom-10 left-10"
         />
+        <Image
+          src="/images/section_5/bg2_part2.png"
+          height={249}
+          width={495}
+          alt="logo_1"
+          className="absolute top-20 right-10 mix-blend-color-dodge"
+        />
       </div>
       <div className="flex flex-col justify-center z-10">
         <h2
