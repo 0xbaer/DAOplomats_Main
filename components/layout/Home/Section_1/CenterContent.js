@@ -7,26 +7,26 @@ export default function CenterContent() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center relative">
       <div className="flex flex-col w-fit items-center z-10">
-        <h1 className={"text-[140px] text-[#DFE225] " + Philosopher.className}>
+        <h1 className={"text-[50px] sm:text-[80px] lg:text-[140px] text-[#DFE225] " + Philosopher.className}>
           Governance
         </h1>
         <h1
           className={
-            "text-[140px] text-[#FCFBEB] -mt-[70px] text-center " +
+            "text-[50px] sm:text-[80px] lg:text-[140px] text-[#FCFBEB] lg:-mt-[70px] text-center " +
             Philosopher.className
           }
         >
           Solved Professionally
         </h1>
-        <div className="mt-[60px] w-full flex items-center justify-between">
+        <div className="mt-[60px] px-[10px] gap-[20px] w-full flex flex-col lg:flex-row items-center justify-between">
           <p
             className={
-              "text-[#fcfbeb] text-[20px] font-normal " + Helvetica.className
+              "text-[#fcfbeb] text-[16pxß] sm:text-[20px] text-center lg:text-left font-normal " + Helvetica.className
             }
           >
-            Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum
-            id <br />
-            feugiat tellus.
+            Tailored governance solutions by our experts streamline decision-making<br/>
+            in your DAO, blending the best of traditional and decentralized<br/>
+            frameworks for enhanced transparency and accountability.
           </p>
           <Button label={"Delegate"} icon={true} />
         </div>
