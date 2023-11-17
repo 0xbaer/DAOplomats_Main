@@ -4,11 +4,11 @@ import Image from "next/image"
 export default function Section_10() {
     return (
         <div className="w-full flex flex-col jusitfy-center items-center gap-[96px] py-[103px] px-[60px] relative bg-[#242424]">
-            <div className="flex flex-row items-start justify-between w-full border-b border-[#DFE225]">
+            <div className="flex flex-col xl:flex-row items-center xl:items-start justify-between w-full border-b border-[#DFE225]">
                 <div className="flex flex-col">
                     <h1 className={"text-[54.68px] text-[#DFE225] " + Philosopher.className}>We Would Love To Hear</h1>
                     <h1 className={"text-[54.68px] text-[#DFE225] mb-6 " + Philosopher.className}>From You.</h1>
-                    <div className="flex flex-row gap-[10px] mb-56">
+                    <div className="flex flex-row gap-[10px] mb-16 xl:mb-56">
                         <button
                             className={"rounded-full px-[13px] py-[4.5px] border-[1px] border-white"}
                         >
@@ -26,7 +26,7 @@ export default function Section_10() {
                         </button>
                     </div>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col xl:mb-0 mb-24">
                     <h1 className="text-[#DFE225] mb-4">QUICK LINKS</h1>
                     <div className="grid grid-rows-3 grid-flow-col gap-4">
                         <h1 className="text-white font-light text-[16px]">About</h1>
@@ -40,6 +40,7 @@ export default function Section_10() {
                     src='/images/section_10/logo.svg'
                     width={108}
                     height={125}
+                    className="mb-10"
                 />
             </div>
             <div className="flex flex-row justify-between pt-14 w-full text-[#DFE225]">
