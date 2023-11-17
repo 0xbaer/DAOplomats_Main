@@ -4,7 +4,7 @@ import ContentBox from "./Section_4/ContentBox";
 
 export default function Section_4() {
   return (
-    <div className="w-full px-[240px] py-[150px] flex gap-[100px] justify-center relative">
+    <div className="w-full  px-[30px] sm:px-[120px] xl:px-[240px] py-[150px] flex flex-col lg:flex-row gap-[100px] justify-center relative">
       <Image
         src="/images/section_4/main_bg.png"
         objectFit="cover"
@@ -22,10 +22,10 @@ export default function Section_4() {
       </h1>
 
       <div className="flex flex-col gap-[80px] z-10 w-full text-[#242424]">
-        <h1 className={"text-[120px] " + Philosopher.className}>
+        <h1 className={"text-[50px] sm:text-[80px] lg:text-[120px] " + Philosopher.className}>
           Let's work together
         </h1>
-        <div className="flex gap-[120px]">
+        <div className="flex-col xl:flex-row gap-[120px]">
           <div className="flex flex-col gap-[80px]">
             <ContentBox
               logo={"/images/section_4/logo_1.svg"}
