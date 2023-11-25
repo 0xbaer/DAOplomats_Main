@@ -24,9 +24,10 @@ export default function CenterContent() {
               "text-[#fcfbeb] text-[20px] font-normal " + Helvetica.className
             }
           >
-            Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum
-            id <br />
-            feugiat tellus.
+            Tailored governance solutions by our experts streamline decision-
+            <br /> making in your DAO, blending the best of traditional and
+            decentralized
+            <br /> frameworks for enhanced transparency and accountability.
           </p>
           <Button label={"Delegate"} icon={true} />
         </div>

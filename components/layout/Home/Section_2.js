@@ -1,3 +1,4 @@
+import Button from "@/components/ui/Button";
 import { Helvetica, Philosopher, Urbanist } from "@/components/ui/fonts";
 import Image from "next/image";
 
@@ -39,10 +40,10 @@ export default function Section_2() {
                 "text-[120px] leading-[125px] relative " + Philosopher.className
               }
             >
-              2
+              10
               <p
                 className={
-                  "-top-[35%] -right-[45%] text-[48px] absolute " +
+                  "-top-[35%] -right-[25%] text-[48px] absolute " +
                   Philosopher.className
                 }
               >
@@ -65,25 +66,71 @@ export default function Section_2() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center items-center gap-[150px] relative">
-        <Image
-          src="/images/section_2/logo_1.png"
-          width={300}
-          height={58}
-          alt="logo_1"
-        />
-        <Image
-          src="/images/section_2/logo_2.png"
-          width={300}
-          height={58}
-          alt="logo_2"
-        />
-        <Image
-          src="/images/section_2/logo_3.png"
-          width={300}
-          height={58}
-          alt="logo_3"
-        />
+      <div className="w-full flex flex-col justify-center items-start gap-[60px] relative">
+        <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
+          We are delegate of
+        </p>
+        <div className="w-full flex justify-between items-center">
+          <Image
+            src="/images/section_2/logo_1.png"
+            width={300}
+            height={58}
+            alt="logo_1"
+          />
+          <Image
+            src="/images/section_2/logo_2.png"
+            width={300}
+            height={58}
+            alt="logo_2"
+          />
+          <Image
+            src="/images/section_2/logo_3.png"
+            width={300}
+            height={58}
+            alt="logo_3"
+          />
+          <Image
+            src="/images/section_2/logo_4.png"
+            width={300}
+            height={58}
+            alt="logo_4"
+          />
+        </div>
+      </div>
+      <hr className="w-[100%] h-[1px] bottom-[0] left-[0] z-10"></hr>
+      <div className="w-full flex justify-start">
+        <div className="flex flex-col justify-center items-start gap-[60px] relative">
+          <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
+            Our governance partners
+          </p>
+          <div className="w-full flex justify-between items-center gap-[50px]">
+            <Image
+              src="/images/section_2/logo_2.png"
+              width={300}
+              height={58}
+              alt="logo_2"
+            />
+            <Image
+              src="/images/section_2/logo_5.png"
+              width={300}
+              height={58}
+              alt="logo_5"
+              className="mb-3"
+            />
+            <Image
+              src="/images/section_2/logo_6.png"
+              width={300}
+              height={58}
+              alt="logo_6"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-start gap-[60px] relative ml-[200px]">
+          <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
+            Our voting history
+          </p>
+          <Button label={"Check Here"} icon={true} />
+        </div>
       </div>
     </div>
   );
