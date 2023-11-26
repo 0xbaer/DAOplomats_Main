@@ -22,7 +22,7 @@ export default function Section_10() {
           <div className="flex flex-row gap-[10px] mb-56">
             <button
               onClick={() => {
-                window.open("Hey.xyz/daoplomats", "_blank");
+                window.open("https://hey.xyz/u/daoplomats", "_blank");
               }}
               className={
                 "rounded-full px-[13px] py-[4.5px] border-[1px] border-white"

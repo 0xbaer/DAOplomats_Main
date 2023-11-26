@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Philosopher, Urbanist } from "@/components/ui/fonts";
 import NavbarButton from "@/components/ui/NavbarButton";
@@ -30,6 +31,9 @@ export default function Navbar() {
           width={30}
           height={30}
           alt="twitter"
+          onClick={() => {
+            window.open("https://x.com/daoplomats", "_blank");
+          }}
         />
         <Link href="/">
           <NavbarButton label="CONTACT US" />
