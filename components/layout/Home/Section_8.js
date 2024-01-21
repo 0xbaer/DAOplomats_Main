@@ -3,7 +3,7 @@ import { Helvetica, Philosopher, Urbanist } from "@/components/ui/fonts";
 
 export default function Section_8() {
   return (
-    <div className="w-full px-[240px] py-[150px] flex gap-[100px] justify-center relative">
+    <div className="w-full px-[10px] md:px-[80px] lg:px-[240px] py-[150px] flex gap-[100px] justify-center relative">
       <Image
         src="/images/section_8/main_bg.png"
         objectFit="cover"
@@ -15,15 +15,15 @@ export default function Section_8() {
       <div className="flex flex-col items-center justify-center  z-10 w-full text-[#242424]">
         <h1
           className={
-            "text-[120px] text-white text-center " + Philosopher.className
+            "text-[50px] sm:text-[80px] lg:text-[120px] text-white text-center " + Philosopher.className
           }
         >
           Let's work <span className="text-[#DFE225]">Together</span>
         </h1>
-        <h4 className="text-[20px] text-white font-light">
+        <h4 className="text-[12px] sm:text-[16px] lg:text-[20px] text-white font-light">
           Just drop us a message here!
         </h4>
-        <div className="grid grid-cols-2 w-[70%] gap-[20px] mt-24 mb-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 w-[70%] gap-[20px] mt-24 mb-5">
           <input
             type="name"
             className="bg-[#333F3D] border border-[#FCFBEB30] text-gray-100 text-[16px]  focus:ring-1 focus:outline-none block w-full p-2.5 "

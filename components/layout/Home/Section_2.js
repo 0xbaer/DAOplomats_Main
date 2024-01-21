@@ -4,40 +4,40 @@ import Image from "next/image";
 
 export default function Section_2() {
   return (
-    <div className="w-full flex flex-col gap-[96px] py-[103px] px-[60px] relative">
+    <div className="w-full flex flex-col gap-[140px] xl:gap-[96px] py-[103px] px-[60px] relative">
       <Image
         src="/images/section_2/bg_main.png"
         layout="fill"
         alt="bg"
         className="absolute top-0 left-0 z-0 object-cover"
       />
-      <div className="flex items-center justify-between w-full h-[331px] relative">
+      <div className="flex flex-col 2xl:flex-row items-center justify-between w-full h-[331px] relative">
         <h1
           className={
-            "text-[#FCFBEB] text-[120px] leading-[125px] " +
+            "text-[#FCFBEB] text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
             Philosopher.className
           }
         >
           Enabling <br />
           <span className="text-[#DFE225]">Decentralization</span>
         </h1>
-        <div className="flex items-center justify-center gap-[100px]">
+        <div className="flex  items-center justify-center gap-[100px]">
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <p
               className={
-                "text-[120px] leading-[125px] " + Philosopher.className
+                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " + Philosopher.className
               }
             >
               5M
             </p>
-            <p className={"text-[24px] text-center " + Urbanist.className}>
+            <p className={"text-[12px] sm:text-[18px] lg:text-[24px] text-center " + Urbanist.className}>
               Token Delegated
             </p>
           </div>
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <div
               className={
-                "text-[120px] leading-[125px] relative " + Philosopher.className
+                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] relative " + Philosopher.className
               }
             >
               10
@@ -50,19 +50,19 @@ export default function Section_2() {
                 +
               </p>
             </div>
-            <p className={"text-[28px] text-center " + Urbanist.className}>
-              Years on the market
+            <p className={"text-[12px] sm:text-[18px] lg:text-[28px] text-center " + Urbanist.className}>
+              Proposals Passed
             </p>
           </div>
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <p
               className={
-                "text-[120px] leading-[125px] " + Philosopher.className
+                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " + Philosopher.className
               }
             >
               5
             </p>
-            <p className={"text-[28px] " + Urbanist.className}>DAOS</p>
+            <p className={"text-[12px] sm:text-[18px] lg:text-[28px] " + Urbanist.className}>DAOS</p>
           </div>
         </div>
       </div>

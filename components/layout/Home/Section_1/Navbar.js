@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="w-full h-[100px] flex items-center justify-between  z-10 relative px-[60px]">
+    <div className="w-full h-[100px] flex items-center justify-between  z-10 relative  px-[8px] lg:px-[60px]">
       <div className="flex items-center justify-center gap-[10px] relative">
         <Image
           src="/images/section_1/logo.svg"
@@ -18,12 +18,13 @@ export default function Navbar() {
           DAO<span className="text-[#E8E8E8] ml-[3.25px]">PLOMATS</span>
         </h1>
       </div>
-      <div className="flex gap-[10px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+      <div className="flex gap-[10px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] hidden lg:flex">
         <NavbarButton label="HOME" isActive={true} />
         <NavbarButton label="ABOUT" />
         <NavbarButton label="SERVICES" />
         <NavbarButton label="CONTACT" />
       </div>
+
 
       <div className="flex gap-[18px]">
         <Image
