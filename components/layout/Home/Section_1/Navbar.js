@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Philosopher, Urbanist } from "@/components/ui/fonts";
 import NavbarButton from "@/components/ui/NavbarButton";
@@ -24,21 +25,21 @@ export default function Navbar() {
         <NavbarButton label="CONTACT" />
       </div>
 
-      {/* <Link href="/">
-        <p className={"text-white text-[16px] underline " + Urbanist.className}>
-          CONTACT US HERE
-        </p>
-      </Link> */}
-      <div className="hidden lg:flex flex-row gap-[10px]">
+
+      <div className="flex gap-[18px]">
         <Image
-          src="/images/section_1/x_logo.svg"
-          width={45}
-          height={45}
-          alt="logo"
+          src="/images/section_1/logo_2.svg"
+          width={30}
+          height={30}
+          alt="twitter"
+          onClick={() => {
+            window.open("https://x.com/daoplomats", "_blank");
+          }}
         />
-        <NavbarButton label="CONTACT US" />
+        <Link href="/">
+          <NavbarButton label="CONTACT US" />
+        </Link>
       </div>
-      
     </div>
   );
 }

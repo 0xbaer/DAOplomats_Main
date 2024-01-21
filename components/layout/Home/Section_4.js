@@ -30,24 +30,24 @@ export default function Section_4() {
             <ContentBox
               logo={"/images/section_4/logo_1.svg"}
               title="DAO Tooling"
-              body="Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tellus. Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tel."
+              body="Tailored tools for a smoother decentralized experience. We keep it simple, avoiding unnecessary complexity to ensure your DAO runs effortlessly."
             />
             <ContentBox
               logo={"/images/section_4/logo_2.svg"}
               title="Treasury Manager"
-              body="Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tellus. Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tel."
+              body="Navigate Web3 confidently with our Treasury Management and Governance expertise, from optimizing DAO tooling to crafting governance models."
             />
           </div>
           <div className="flex flex-col gap-[80px] pt-[80px]">
             <ContentBox
               logo={"/images/section_4/logo_3.svg"}
-              title="DAO Consulting"
-              body="Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tellus. Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tel."
+              title="Governance Model Design"
+              body="Craft a solid governance plan with our research-backed models. We provide clear documentation and follow up to ensure it's seamlessly integrated for effective decision-making."
             />
             <ContentBox
               logo={"/images/section_4/logo_4.png"}
-              title="Others"
-              body="Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tellus. Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id feugiat tel."
+              title="Tokenomics and Education"
+              body="Design a sustainable token model for your governance tokens and ensure its adoption with our curated education and tokenomics programs. We blend insights from both web2 and web3 governance, providing a comprehensive perspective."
             />
           </div>
         </div>

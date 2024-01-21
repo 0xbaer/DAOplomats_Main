@@ -24,9 +24,10 @@ export default function CenterContent() {
               "text-[#fcfbeb] text-[16pxß] sm:text-[20px] text-center lg:text-left font-normal " + Helvetica.className
             }
           >
-            Tailored governance solutions by our experts streamline decision-making<br/>
-            in your DAO, blending the best of traditional and decentralized<br/>
-            frameworks for enhanced transparency and accountability.
+            Tailored governance solutions by our experts streamline decision-
+            <br /> making in your DAO, blending the best of traditional and
+            decentralized
+            <br /> frameworks for enhanced transparency and accountability.
           </p>
           <Button label={"Delegate"} icon={true} />
         </div>
