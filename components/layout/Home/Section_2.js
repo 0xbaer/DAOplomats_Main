@@ -25,19 +25,26 @@ export default function Section_2() {
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <p
               className={
-                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " + Philosopher.className
+                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
+                Philosopher.className
               }
             >
               5M
             </p>
-            <p className={"text-[12px] sm:text-[18px] lg:text-[24px] text-center " + Urbanist.className}>
+            <p
+              className={
+                "text-[12px] sm:text-[18px] lg:text-[24px] text-center " +
+                Urbanist.className
+              }
+            >
               Token Delegated
             </p>
           </div>
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <div
               className={
-                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] relative " + Philosopher.className
+                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] relative " +
+                Philosopher.className
               }
             >
               10
@@ -50,19 +57,32 @@ export default function Section_2() {
                 +
               </p>
             </div>
-            <p className={"text-[12px] sm:text-[18px] lg:text-[28px] text-center " + Urbanist.className}>
+            <p
+              className={
+                "text-[12px] sm:text-[18px] lg:text-[28px] text-center " +
+                Urbanist.className
+              }
+            >
               Proposals Passed
             </p>
           </div>
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <p
               className={
-                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " + Philosopher.className
+                "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
+                Philosopher.className
               }
             >
               5
             </p>
-            <p className={"text-[12px] sm:text-[18px] lg:text-[28px] " + Urbanist.className}>DAOS</p>
+            <p
+              className={
+                "text-[12px] sm:text-[18px] lg:text-[28px] " +
+                Urbanist.className
+              }
+            >
+              DAOS
+            </p>
           </div>
         </div>
       </div>
@@ -70,7 +90,7 @@ export default function Section_2() {
         <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
           We are delegate of
         </p>
-        <div className="w-full flex justify-between items-center">
+        <div className="w-full flex lg:flex-row flex-col gap-10 justify-between items-center">
           <Image
             src="/images/section_2/logo_1.png"
             width={300}
@@ -98,12 +118,12 @@ export default function Section_2() {
         </div>
       </div>
       <hr className="w-[100%] h-[1px] bottom-[0] left-[0] z-10"></hr>
-      <div className="w-full flex justify-start">
+      <div className="w-full flex lg:flex-row flex-col justify-start">
         <div className="flex flex-col justify-center items-start gap-[60px] relative">
           <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
             Our governance partners
           </p>
-          <div className="w-full flex justify-between items-center gap-[50px]">
+          <div className="w-full flex flex-col sm:flex-row justify-between items-center gap-[50px]">
             <Image
               src="/images/section_2/logo_2.png"
               width={300}
@@ -125,7 +145,7 @@ export default function Section_2() {
             />
           </div>
         </div>
-        <div className="flex flex-col justify-center items-start gap-[60px] relative ml-[200px]">
+        <div className="flex flex-col justify-center items-start gap-[60px] relative lg:ml-[200px] mt-14 lg:mt-0">
           <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
             Our voting history
           </p>

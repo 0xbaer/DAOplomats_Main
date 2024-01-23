@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Section_12() {
   return (
     <div className="w-full flex flex-col gap-[96px] py-[103px] relative bg-[#333F3D]">
-      <div className="w-full px-[240px] py-[150px] flex gap-[100px] justify-center relative">
+      <div className="w-full xl:px-[240px] px-[50px] py-[150px] flex flex-col 2xl:flex-row gap-[100px] justify-center relative">
         <h1
           className={
             "text-[#000] text-[16px] z-10 w-[190px] text-start mt-[45px] text-[#DFE225] " +
@@ -16,15 +16,16 @@ export default function Section_12() {
 
         <div className="flex flex-col gap-[80px] z-10 w-full ">
           <h1
-            className={
-              "text-[32px] w-[918px] text-white " + Helvetica.className
-            }
+            className={"text-[32px] text-white " + Helvetica.className}
+            style={{
+              textWrap: "wrap",
+            }}
           >
             Our seasoned team brings diverse expertise to the DAO ecosystem,
             offering tailored solutions for decentralized governance that meet
             the unique needs of each DAO we collaborate with.
           </h1>
-          <div className="flex flex-row gap-[60px]  ">
+          <div className="flex lg:flex-row flex-col gap-[60px]  ">
             <Image
               src="/images/section_3/image1.png"
               width={345}
@@ -34,7 +35,7 @@ export default function Section_12() {
             <div className={"flex flex-col"}>
               <h1
                 className={
-                  "text-[#FCFBEB] text-[120px] leading-[125px] " +
+                  "text-[#FCFBEB] text-[120px] leading-[125px] mb-10 " +
                   Philosopher.className
                 }
               >

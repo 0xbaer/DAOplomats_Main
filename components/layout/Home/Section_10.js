@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Section_10() {
   return (
     <div className="w-full flex flex-col jusitfy-center items-center gap-[96px] py-[103px] px-[60px] relative bg-[#242424]">
-      <div className="flex flex-row items-start justify-between w-full border-b border-[#DFE225]">
+      <div className="flex lg:flex-row flex-col items-start lg:justify-between w-full border-b border-[#DFE225]">
         <div className="flex flex-col">
           <h1
             className={"text-[54.68px] text-[#DFE225] " + Philosopher.className}
@@ -19,7 +19,7 @@ export default function Section_10() {
           >
             From You.
           </h1>
-          <div className="flex flex-row gap-[10px] mb-56">
+          <div className="flex flex-row gap-[10px] lg:mb-56 mb-20">
             <button
               onClick={() => {
                 window.open("https://hey.xyz/u/daoplomats", "_blank");
@@ -49,7 +49,7 @@ export default function Section_10() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col mb-20">
           <h1 className="text-[#DFE225] mb-4">QUICK LINKS</h1>
           <div className="grid grid-rows-3 grid-flow-col gap-4">
             <h1 className="text-white font-light text-[16px]">About</h1>
@@ -59,7 +59,12 @@ export default function Section_10() {
             <h1 className="text-white font-light text-[16px]">Contact</h1>
           </div>
         </div>
-        <Image src="/images/section_10/logo.svg" width={108} height={125} />
+        <Image
+          src="/images/section_10/logo.svg"
+          width={108}
+          height={125}
+          className="mb-5"
+        />
       </div>
       <div className="flex flex-row justify-between pt-14 w-full text-[#DFE225]">
         <h1>2023</h1>

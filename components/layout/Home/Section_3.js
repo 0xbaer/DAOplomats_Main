@@ -20,13 +20,13 @@ export default function Section_3() {
           Vestibulum id feugiat tellus.
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row  justify-between items-center" >
+      <div className="flex flex-col lg:flex-row  justify-between items-center">
         <Image
           src="/images/section_3/panel1.png"
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: '80%', height: 'auto',padding:'10px 0px' }}
+          style={{ width: "80%", height: "auto", padding: "10px 0px" }}
           alt="logo_1"
         />
         <Image
@@ -34,7 +34,7 @@ export default function Section_3() {
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: '80%', height: 'auto',padding:'10px 0px' }}
+          style={{ width: "80%", height: "auto", padding: "10px 0px" }}
           alt="logo_1"
         />
         <Image
@@ -42,7 +42,7 @@ export default function Section_3() {
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: '80%', height: 'auto',padding:'10px 0px' }}
+          style={{ width: "80%", height: "auto", padding: "10px 0px" }}
           alt="logo_1"
         />
         <Image
@@ -50,7 +50,7 @@ export default function Section_3() {
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: '80%', height: 'auto',padding:'10px 0px' }}
+          style={{ width: "80%", height: "auto", padding: "10px 0px" }}
           alt="logo_1"
         />
         <Image
@@ -58,11 +58,11 @@ export default function Section_3() {
           width={0}
           height={0}
           sizes="100vw"
-          style={{ width: '80%', height: 'auto',padding:'10px 0px' }}
+          style={{ width: "80%", height: "auto", padding: "10px 0px" }}
           alt="logo_1"
         />
       </div>
-      <div className="w-full flex-col xl:flex-row px-[90px] xl:px-[240px] py-[150px] flex gap-[100px] justify-center relative">
+      {/* <div className="w-full flex-col xl:flex-row px-[90px] xl:px-[240px] py-[150px] flex gap-[100px] justify-center relative">
         <h1
           className={
             "text-[#000] text-[16px] z-10 w-[190px] text-start mt-[45px] text-[#DFE225] " +
@@ -164,8 +164,7 @@ export default function Section_3() {
             </div>
           </div>
         </div>
-      </div>
-
+      </div> */}
     </div>
   );
 }

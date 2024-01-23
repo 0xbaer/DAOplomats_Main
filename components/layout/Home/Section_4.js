@@ -22,10 +22,15 @@ export default function Section_4() {
       </h1>
 
       <div className="flex flex-col gap-[80px] z-10 w-full text-[#242424]">
-        <h1 className={"text-[50px] sm:text-[80px] lg:text-[120px] " + Philosopher.className}>
+        <h1
+          className={
+            "text-[50px] sm:text-[80px] lg:text-[120px] " +
+            Philosopher.className
+          }
+        >
           Let's work together
         </h1>
-        <div className="flex-col xl:flex-row gap-[120px]">
+        <div className="flex flex-col xl:flex-row gap-[120px]">
           <div className="flex flex-col gap-[80px]">
             <ContentBox
               logo={"/images/section_4/logo_1.svg"}
