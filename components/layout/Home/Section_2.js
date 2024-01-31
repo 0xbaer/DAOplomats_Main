@@ -11,7 +11,7 @@ export default function Section_2() {
         alt="bg"
         className="absolute top-0 left-0 z-0 object-cover"
       />
-      <div className="flex flex-col 2xl:flex-row items-center justify-between w-full h-[331px] relative">
+      <div className="flex flex-col laptop:flex-row items-center justify-between w-full h-[331px] relative">
         <h1
           className={
             "text-[#FCFBEB] text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
@@ -110,7 +110,7 @@ export default function Section_2() {
             alt="logo_3"
           />
           <Image
-            src="/images/section_2/logo_4.png"
+            src="/images/section_2/logo_8.svg"
             width={300}
             height={58}
             alt="logo_4"
@@ -131,7 +131,7 @@ export default function Section_2() {
               alt="logo_2"
             />
             <Image
-              src="/images/section_2/logo_5.png"
+              src="/images/section_2/logo_7.svg"
               width={300}
               height={58}
               alt="logo_5"
