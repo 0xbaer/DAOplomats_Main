@@ -4,7 +4,7 @@ import { Philosopher, Urbanist } from "@/components/ui/fonts";
 import NavbarButton from "@/components/ui/NavbarButton";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar({ about, services, contact }) {
   return (
     <div className="w-full h-[100px] flex items-center justify-between  z-10 relative  px-[8px] lg:px-[60px]">
       <div className="flex items-center justify-center gap-[10px] relative">
@@ -20,9 +20,24 @@ export default function Navbar() {
       </div>
       <div className="flex gap-[10px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] hidden lg:flex">
         <NavbarButton label="HOME" isActive={true} />
-        <NavbarButton label="ABOUT" />
-        <NavbarButton label="SERVICES" />
-        <NavbarButton label="CONTACT" />
+        <NavbarButton
+          label="ABOUT"
+          onClick={() => {
+            about.current?.scrollIntoView({ behavior: "smooth" });
+          }}
+        />
+        <NavbarButton
+          label="SERVICES"
+          onClick={() => {
+            services.current?.scrollIntoView({ behavior: "smooth" });
+          }}
+        />
+        <NavbarButton
+          label="CONTACT"
+          onClick={() => {
+            contact.current?.scrollIntoView({ behavior: "smooth" });
+          }}
+        />
       </div>
 
       <div className="flex gap-[18px]">

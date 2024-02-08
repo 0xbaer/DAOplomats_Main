@@ -2,7 +2,8 @@ import Image from "next/image";
 import Navbar from "./Section_1/Navbar";
 import CenterContent from "./Section_1/CenterContent";
 
-export default function Section_1() {
+export default function Section_1({ about, services, contact }) {
+  console.log("about", about);
   return (
     <div className="h-screen w-screen flex flex-col">
       <Image
@@ -12,7 +13,7 @@ export default function Section_1() {
         className="absolute top-0 left-0"
         alt="main_bg"
       />
-      <Navbar />
+      <Navbar about={about} services={services} contact={contact} />
       <CenterContent />
     </div>
   );

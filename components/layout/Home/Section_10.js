@@ -2,7 +2,7 @@
 import { Helvetica, Philosopher, Urbanist } from "@/components/ui/fonts";
 import Image from "next/image";
 
-export default function Section_10() {
+export default function Section_10({ about, services, contact, client }) {
   return (
     <div className="w-full flex flex-col jusitfy-center items-center gap-[96px] py-[103px] px-[60px] relative bg-[#242424]">
       <div className="flex lg:flex-row flex-col items-start lg:justify-between w-full border-b border-[#DFE225]">
@@ -52,14 +52,35 @@ export default function Section_10() {
         <div className="flex flex-col mb-20">
           <h1 className="text-[#DFE225] mb-4">QUICK LINKS</h1>
           <div className="grid grid-rows-3 grid-flow-col gap-4">
-            <h1 className="text-white font-light text-[16px]">About</h1>
-            <h1 className="text-white font-light text-[16px]">Services</h1>
-            <h1 className="text-white font-light text-[16px]">Case Studies</h1>
+            <h1
+              className="text-white font-light text-[16px]"
+              onClick={() => {
+                about.current?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              About
+            </h1>
+            <h1
+              className="text-white font-light text-[16px]"
+              onClick={() => {
+                services.current?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Services
+            </h1>
+            <h1
+              className="text-white font-light text-[16px]"
+              onClick={() => {
+                client.current?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Case Studies
+            </h1>
             <h1 className="text-white font-light text-[16px]">Blog</h1>
             <h1
               className="text-white font-light text-[16px]"
               onClick={() => {
-                window.open("mailto:baer@daoplomats.org", "_blank");
+                contact.current?.scrollIntoView({ behavior: "smooth" });
               }}
             >
               Contact
@@ -83,7 +104,7 @@ export default function Section_10() {
           <p
             className={"text-[14px] " + Urbanist.className}
             onClick={() => {
-              window.scrollTo(0, 0);
+              window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
             BACK TO TOP
