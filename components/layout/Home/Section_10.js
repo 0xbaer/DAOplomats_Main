@@ -56,7 +56,14 @@ export default function Section_10() {
             <h1 className="text-white font-light text-[16px]">Services</h1>
             <h1 className="text-white font-light text-[16px]">Case Studies</h1>
             <h1 className="text-white font-light text-[16px]">Blog</h1>
-            <h1 className="text-white font-light text-[16px]">Contact</h1>
+            <h1
+              className="text-white font-light text-[16px]"
+              onClick={() => {
+                window.open("mailto:baer@daoplomats.org", "_blank");
+              }}
+            >
+              Contact
+            </h1>
           </div>
         </div>
         <Image
@@ -73,7 +80,14 @@ export default function Section_10() {
             "rounded-full px-[13px] py-[4.5px] border-[1px] border-[#DFE225]"
           }
         >
-          <p className={"text-[14px] " + Urbanist.className}>BACK TO TOP</p>
+          <p
+            className={"text-[14px] " + Urbanist.className}
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
+            BACK TO TOP
+          </p>
         </button>
       </div>
     </div>

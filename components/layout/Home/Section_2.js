@@ -1,3 +1,4 @@
+"use client";
 import Button from "@/components/ui/Button";
 import { Helvetica, Philosopher, Urbanist } from "@/components/ui/fonts";
 import Image from "next/image";
@@ -149,7 +150,16 @@ export default function Section_2() {
           <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
             Our voting history
           </p>
-          <Button label={"Check Here"} icon={true} />
+          <Button
+            label={"Check Here"}
+            icon={true}
+            onClick={() => {
+              window.open(
+                "https://daoplomats.notion.site/25e8bf8f0be841e8826ac43b97589a3b?v=707b62670efd45dbb635a53b7d773ee5",
+                "_blank"
+              );
+            }}
+          />
         </div>
       </div>
     </div>

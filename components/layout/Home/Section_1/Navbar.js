@@ -25,7 +25,6 @@ export default function Navbar() {
         <NavbarButton label="CONTACT" />
       </div>
 
-
       <div className="flex gap-[18px]">
         <Image
           src="/images/section_1/logo_2.svg"
@@ -37,7 +36,12 @@ export default function Navbar() {
           }}
         />
         <Link href="/">
-          <NavbarButton label="CONTACT US" />
+          <NavbarButton
+            label="CONTACT US"
+            onClick={() => {
+              window.open("mailto:baer@daoplomats.org", "_blank");
+            }}
+          />
         </Link>
       </div>
     </div>

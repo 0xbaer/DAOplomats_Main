@@ -1,4 +1,4 @@
-import { Helvetica, Philosopher } from "@/components/ui/fonts";
+import { Helvetica, Philosopher, Urbanist } from "@/components/ui/fonts";
 import Image from "next/image";
 
 export default function Section_12() {
@@ -16,7 +16,7 @@ export default function Section_12() {
 
         <div className="flex flex-col gap-[80px] z-10 w-full ">
           <h1
-            className={"text-[32px] text-white " + Helvetica.className}
+            className={"text-[32px] text-white " + Philosopher.className}
             style={{
               textWrap: "wrap",
             }}
@@ -81,12 +81,12 @@ export default function Section_12() {
                       }
                     >
                       {" "}
-                      Objective decision making{" "}
+                      Positive sum{" "}
                     </h1>
                     <p className="text-[#FCFBEB] text-[16px]">
-                      We design and implement decision making frameworks which
-                      enable us to perform qualitative and quantative analysis
-                      in order to arrive at conclusions.
+                      We strive to make our interactions positive sum whenever
+                      possible to allow maximum number of stakeholders to
+                      benefit via collaboration.
                     </p>
                   </div>
                   <div>
@@ -95,11 +95,11 @@ export default function Section_12() {
                         "text-[#DFE225] text-[18px] " + Philosopher.className
                       }
                     >
-                      Decentralisation{" "}
+                      United we stand{" "}
                     </h1>
                     <p className="text-[#FCFBEB] text-[16px]">
-                      We believe in a highly distributed power structures and
-                      strive to push decision making power to the edges
+                      We believe decentralisation is paramount in web3
+                      governance. We aim to be the voice of everyday users.
                     </p>
                   </div>
                 </div>

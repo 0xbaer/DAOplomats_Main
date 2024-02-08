@@ -1,3 +1,5 @@
+"use client";
+
 import Button from "@/components/ui/Button";
 import { Philosopher, Helvetica } from "@/components/ui/fonts";
 import Image from "next/image";
@@ -7,7 +9,12 @@ export default function CenterContent() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center relative">
       <div className="flex flex-col w-fit items-center z-10">
-        <h1 className={"text-[50px] sm:text-[80px] lg:text-[140px] text-[#DFE225] " + Philosopher.className}>
+        <h1
+          className={
+            "text-[50px] sm:text-[80px] lg:text-[140px] text-[#DFE225] " +
+            Philosopher.className
+          }
+        >
           Governance
         </h1>
         <h1
@@ -21,7 +28,8 @@ export default function CenterContent() {
         <div className="mt-[60px] px-[10px] gap-[20px] w-full flex flex-col lg:flex-row items-center justify-between">
           <p
             className={
-              "text-[#fcfbeb] text-[16pxß] sm:text-[20px] text-center lg:text-left font-normal " + Helvetica.className
+              "text-[#fcfbeb] text-[16pxß] sm:text-[20px] text-center lg:text-left font-normal " +
+              Helvetica.className
             }
           >
             Tailored governance solutions by our experts streamline decision-
@@ -29,7 +37,16 @@ export default function CenterContent() {
             decentralized
             <br /> frameworks for enhanced transparency and accountability.
           </p>
-          <Button label={"Delegate"} icon={true} />
+          <Button
+            label={"Delegate"}
+            icon={true}
+            onClick={() => {
+              window.open(
+                "https://boardroom.io/voter/daoplomats.eth",
+                "_blank"
+              );
+            }}
+          />
         </div>
       </div>
       <Image
