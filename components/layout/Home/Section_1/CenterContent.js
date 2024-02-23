@@ -60,14 +60,14 @@ export default function CenterContent() {
         src="/images/section_1/bg_l.png"
         height={844}
         width={323}
-        className="absolute top-[10%] left-0"
+        className="absolute top-[10%] left-0 hidden lg:block"
         alt="main_bg"
       />
       <Image
         src="/images/section_1/bg_r.png"
         height={844}
         width={323}
-        className="absolute top-[50%] right-0"
+        className="absolute top-[50%] right-0 hidden lg:block"
         alt="main_bg"
       />
     </div>

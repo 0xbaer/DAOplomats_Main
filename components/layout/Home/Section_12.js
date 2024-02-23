@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Section_12() {
   return (
     <div className="w-full flex flex-col gap-[96px] py-[103px] relative bg-[#333F3D]">
-      <div className="w-full xl:px-[240px] px-[50px] py-[150px] flex flex-col 2xl:flex-row gap-[100px] justify-center relative">
+      <div className="w-full xl:px-[100px] px-[50px] py-[150px] flex flex-col 2xl:flex-row gap-[100px] justify-center relative">
         <h1
           className={
             "text-[#000] text-[16px] z-10 w-[190px] text-start mt-[45px] text-[#DFE225] " +

@@ -14,11 +14,11 @@ export default function Section_3() {
           Working to
           <span className="text-[#DFE225]"> DAO it</span>
         </h1>
-        <div className="flex items-center justify-center w-[350px] md:w-[408px] text-white text-center">
+        {/* <div className="flex items-center justify-center w-[350px] md:w-[408px] text-white text-center">
           Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id
           feugiat tellus.Donec luctus orci eros, eget mollis turpis gravida sed.
           Vestibulum id feugiat tellus.
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col lg:flex-row  justify-between items-center">
         <Image

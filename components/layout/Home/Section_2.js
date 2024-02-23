@@ -131,13 +131,13 @@ export default function Section_2() {
               height={58}
               alt="logo_2"
             />
-            <Image
+            {/* <Image
               src="/images/section_2/logo_7.svg"
               width={300}
               height={58}
               alt="logo_5"
               className="mb-3"
-            />
+            /> */}
             <Image
               src="/images/section_2/logo_6.png"
               width={300}
