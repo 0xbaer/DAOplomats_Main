@@ -91,7 +91,7 @@ export default function Section_2() {
         <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
           We are delegate of
         </p>
-        <div className="w-full flex lg:flex-row flex-col gap-10 justify-between items-center">
+        <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
           <Image
             src="/images/section_2/logo_1.png"
             width={300}
@@ -117,6 +117,36 @@ export default function Section_2() {
             alt="logo_4"
           />
         </div>
+        <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
+          <Image
+            src="/images/section_2/logo_9.svg"
+            width={300}
+            height={58}
+            alt="logo_1"
+            className="  w-[250px] "
+          />
+          <Image
+            src="/images/section_2/logo_10.svg"
+            width={300}
+            height={58}
+            alt="logo_2"
+            className="  w-[250px] "
+          />
+          <Image
+            src="/images/section_2/logo_11.svg"
+            width={300}
+            height={58}
+            alt="logo_3"
+            className="  w-[250px] "
+          />
+          <Image
+            src="/images/section_2/logo_12.svg"
+            width={300}
+            height={58}
+            alt="logo_4"
+            className="  w-[250px] "
+          />
+        </div>
       </div>
       <hr className="w-[100%] h-[1px] bottom-[0] left-[0] z-10"></hr>
       <div className="w-full flex lg:flex-row flex-col justify-start">
@@ -131,13 +161,13 @@ export default function Section_2() {
               height={58}
               alt="logo_2"
             />
-            {/* <Image
-              src="/images/section_2/logo_7.svg"
+            <Image
+              src="/images/section_2/logo_9.svg"
               width={300}
               height={58}
-              alt="logo_5"
+              alt="logo_9"
               className="mb-3"
-            /> */}
+            />
             <Image
               src="/images/section_2/logo_6.png"
               width={300}
