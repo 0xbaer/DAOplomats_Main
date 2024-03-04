@@ -86,12 +86,13 @@ export default function Section_2() {
             </p>
           </div>
         </div>
-      </div> 
+            </div> */ }
             
       <div className="w-full flex flex-col justify-center items-start gap-[60px] relative">
-        <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
+        {/*<p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
           We are delegate of
         </p> */}
+        
         <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
           <Image
             src="/images/section_2/logo_1.png"
