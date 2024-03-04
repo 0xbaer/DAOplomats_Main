@@ -76,14 +76,14 @@ export default function Section_2() {
             >
               9
             </p>
-            <p
+            {/*<p
               className={
                 "text-[12px] sm:text-[18px] lg:text-[28px] " +
                 Urbanist.className
               }
             >
               DAOS
-            </p>
+            </p> */}
           </div>
         </div>
       </div> 
