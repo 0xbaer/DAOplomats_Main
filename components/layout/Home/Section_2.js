@@ -86,7 +86,8 @@ export default function Section_2() {
             </p>
           </div>
         </div>
-      </div> */
+      </div> * / 
+            
      /* <div className="w-full flex flex-col justify-center items-start gap-[60px] relative">
         <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
           We are delegate of
