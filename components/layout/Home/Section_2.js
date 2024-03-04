@@ -23,7 +23,7 @@ export default function Section_2() {
           <span className="text-[#DFE225]">Decentralization</span>
         </h1>
      <div className="flex  items-center justify-center gap-[100px]">
-          {/*<div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
+          <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <p
               className={
                 "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
@@ -76,15 +76,15 @@ export default function Section_2() {
             >
               9
             </p>
-            {/*<p
+            <p
               className={
                 "text-[12px] sm:text-[18px] lg:text-[28px] " +
                 Urbanist.className
               }
             >
               DAOS
-            </p> */}
-          </div>
+            </p> 
+            </div> */}
         </div>
       </div> 
             
