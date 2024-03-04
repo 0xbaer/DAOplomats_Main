@@ -24,7 +24,7 @@ export default function Section_2() {
         </h1>
      <div className="flex  items-center justify-center gap-[100px]">
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
-            <p
+           {/* <p
               className={
                 "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
                 Philosopher.className
@@ -65,7 +65,7 @@ export default function Section_2() {
               }
             >
               Proposals Passed
-            </p>
+            </p> */}
           </div>
           {/* <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <p
