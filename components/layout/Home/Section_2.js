@@ -23,7 +23,7 @@ export default function Section_2() {
           <span className="text-[#DFE225]">Decentralization</span>
         </h1>
      <div className="flex  items-center justify-center gap-[100px]">
-          <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
+          {/*<div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <p
               className={
                 "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
@@ -67,7 +67,7 @@ export default function Section_2() {
               Proposals Passed
             </p>
           </div>
-          <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
+          {/* <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
             <p
               className={
                 "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
