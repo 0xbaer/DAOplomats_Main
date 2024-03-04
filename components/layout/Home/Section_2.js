@@ -74,7 +74,7 @@ export default function Section_2() {
                 Philosopher.className
               }
             >
-              5
+              9
             </p>
             <p
               className={
