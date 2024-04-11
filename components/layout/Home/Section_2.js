@@ -141,7 +141,7 @@ export default function Section_2() {
             className="  w-[250px] "
           />
           <Image
-            src="/images/section_2/logo_4.svg"
+            src="/images/section_2/logo_4.png"
             width={300}
             height={58}
             alt="logo_4"
@@ -168,7 +168,13 @@ export default function Section_2() {
               height={58}
               alt="logo_9"
               className="mb-3"
-            /> 
+            />
+                <Image
+              src="/images/section_2/logo_2.png"
+              width={300}
+              height={58}
+              alt="logo_2"
+            />
             <Image
               src="/images/section_2/logo_6.png"
               width={300}
