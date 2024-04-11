@@ -141,10 +141,10 @@ export default function Section_2() {
             className="  w-[250px] "
           />
           <Image
-            src="/images/section_2/logo_12.svg"
+            src="/images/section_2/logo_4.svg"
             width={300}
             height={58}
-            alt="logo_12"
+            alt="logo_4"
             className="  w-[250px] "
           />
         </div>
