@@ -90,7 +90,7 @@ export default function Section_2() {
             
      <div className="w-full flex flex-col justify-center items-start gap-[60px] relative">
         <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
-          We are delegate of
+          We are delegates of
         </p> 
         <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
           <Image
@@ -115,36 +115,36 @@ export default function Section_2() {
             src="/images/section_2/logo_8.svg"
             width={300}
             height={58}
-            alt="logo_4"
+            alt="logo_8"
           />
         </div>
         <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
           <Image
-            src="/images/section_2/logo_9.svg"
+            src="/images/section_2/logo_7.svg"
             width={300}
             height={58}
-            alt="logo_1"
+            alt="logo_7"
             className="  w-[250px] "
           />
           <Image
             src="/images/section_2/logo_10.svg"
             width={300}
             height={58}
-            alt="logo_2"
+            alt="logo_10"
             className="  w-[250px] "
           />
           <Image
             src="/images/section_2/logo_11.svg"
             width={300}
             height={58}
-            alt="logo_3"
+            alt="logo_11"
             className="  w-[250px] "
           />
           <Image
             src="/images/section_2/logo_12.svg"
             width={300}
             height={58}
-            alt="logo_4"
+            alt="logo_12"
             className="  w-[250px] "
           />
         </div>
