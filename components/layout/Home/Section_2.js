@@ -169,12 +169,7 @@ export default function Section_2() {
               alt="logo_9"
               className="mb-3"
             />
-                <Image
-              src="/images/section_2/logo_2.png"
-              width={300}
-              height={58}
-              alt="logo_2"
-            />
+      
             <Image
               src="/images/section_2/logo_6.png"
               width={300}
