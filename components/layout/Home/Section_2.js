@@ -22,9 +22,9 @@ export default function Section_2() {
           Enabling <br />
           <span className="text-[#DFE225]">Decentralization</span>
         </h1>
-     <div className="flex  items-center justify-center gap-[100px]">
+        <div className="flex  items-center justify-center gap-[100px]">
           <div className="flex flex-col gap-[6px] items-center text-[#fcfbfb]">
-           {/* <p
+            {/* <p
               className={
                 "text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
                 Philosopher.className
@@ -86,12 +86,12 @@ export default function Section_2() {
             </p> 
             </div> */}
         </div>
-      </div> 
-            
-     <div className="w-full flex flex-col justify-center items-start gap-[60px] relative">
+      </div>
+
+      <div className="w-full flex flex-col justify-center items-start gap-[60px] relative">
         <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
           We are delegates of
-        </p> 
+        </p>
         <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
           <Image
             src="/images/section_2/logo_1.png"
@@ -124,28 +124,52 @@ export default function Section_2() {
             width={300}
             height={58}
             alt="logo_7"
-            className="  w-[250px] "
+            className="w-[250px]"
           />
           <Image
             src="/images/section_2/logo_10.svg"
             width={300}
             height={58}
             alt="logo_10"
-            className="  w-[250px] "
+            className="w-[250px]"
           />
           <Image
             src="/images/section_2/logo_11.svg"
             width={300}
             height={58}
             alt="logo_11"
-            className="  w-[250px] "
+            className="w-[250px]"
           />
           <Image
             src="/images/section_2/logo_12.svg"
             width={300}
             height={58}
             alt="logo_12"
-            className="  w-[250px] "
+            className="w-[250px]"
+          />
+        </div>
+
+        <div className="w-full flex xl:flex-row flex-col gap-10 justify-evenly items-center">
+          <Image
+            src="/images/section_2/ens.svg"
+            width={300}
+            height={58}
+            alt="ENS Domain Logo"
+            className="w-[250px]"
+          />
+          <Image
+            src="/images/section_2/starnet.svg"
+            width={300}
+            height={58}
+            alt="Startnet Logo"
+            className="w-[250px]"
+          />
+          <Image
+            src="/images/section_2/uniswap.svg"
+            width={300}
+            height={58}
+            alt="Uniswap Logo"
+            className="w-[250px]"
           />
         </div>
       </div>
@@ -169,7 +193,7 @@ export default function Section_2() {
               alt="logo_9"
               className="mb-3"
             />
-      
+
             <Image
               src="/images/section_2/logo_6.png"
               width={300}
