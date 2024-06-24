@@ -92,85 +92,83 @@ export default function Section_2() {
         <p className={"text-[#DFE225] text-[36px] " + Philosopher.className}>
           We are delegates of
         </p>
-        <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
-          <Image
-            src="/images/section_2/logo_1.png"
-            width={300}
-            height={58}
-            alt="logo_1"
-          />
-          <Image
-            src="/images/section_2/logo_2.png"
-            width={300}
-            height={58}
-            alt="logo_2"
-          />
-          <Image
-            src="/images/section_2/logo_3.png"
-            width={300}
-            height={58}
-            alt="logo_3"
-          />
-          <Image
-            src="/images/section_2/logo_8.svg"
-            width={300}
-            height={58}
-            alt="logo_8"
-          />
-        </div>
-        <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
-          <Image
-            src="/images/section_2/logo_7.svg"
-            width={300}
-            height={58}
-            alt="logo_7"
-            className="w-[250px]"
-          />
-          <Image
-            src="/images/section_2/logo_10.svg"
-            width={300}
-            height={58}
-            alt="logo_10"
-            className="w-[250px]"
-          />
-          <Image
-            src="/images/section_2/logo_11.svg"
-            width={300}
-            height={58}
-            alt="logo_11"
-            className="w-[250px]"
-          />
-          <Image
-            src="/images/section_2/logo_12.svg"
-            width={300}
-            height={58}
-            alt="logo_12"
-            className="w-[250px]"
-          />
-        </div>
 
-        <div className="w-full flex xl:flex-row flex-col gap-10 justify-evenly items-center">
-          <Image
-            src="/images/section_2/ens.svg"
-            width={300}
-            height={58}
-            alt="ENS Domain Logo"
-            className="w-[250px]"
-          />
-          <Image
-            src="/images/section_2/starnet.svg"
-            width={300}
-            height={58}
-            alt="Startnet Logo"
-            className="w-[250px]"
-          />
-          <Image
-            src="/images/section_2/uniswap.svg"
-            width={300}
-            height={58}
-            alt="Uniswap Logo"
-            className="w-[250px]"
-          />
+        <div className="space-y-28">
+          <div className="w-full flex xl:flex-row flex-col gap-10 justify-between 2xl:px-48 items-center xl:px-40 lg:px-32">
+            <Image
+              src="/images/section_2/logo_2.png"
+              width={300}
+              height={58}
+              alt="logo_2"
+            />
+            <Image
+              src="/images/section_2/logo_3.png"
+              width={300}
+              height={58}
+              alt="logo_3"
+            />
+            <Image
+              src="/images/section_2/logo_11.svg"
+              width={300}
+              height={58}
+              alt="logo_11"
+              className="w-[250px]"
+            />
+          </div>
+
+          <div className="w-full flex xl:flex-row flex-col gap-10 justify-between items-center">
+            <Image
+              src="/images/section_2/logo_1.png"
+              width={300}
+              height={58}
+              alt="logo_1"
+            />
+            <Image
+              src="/images/section_2/ens.svg"
+              width={300}
+              height={58}
+              alt="ENS Domain Logo"
+              className="w-[250px]"
+            />
+            <Image
+              src="/images/section_2/logo_10.svg"
+              width={300}
+              height={58}
+              alt="logo_10"
+              className="w-[250px]"
+            />
+            <Image
+              src="/images/section_2/logo_7.svg"
+              width={300}
+              height={58}
+              alt="logo_7"
+              className="w-[250px]"
+            />
+          </div>
+
+          <div className="w-full flex xl:flex-row flex-col gap-10 justify-between 2xl:px-48 items-center xl:px-40">
+            <Image
+              src="/images/section_2/logo_12.svg"
+              width={300}
+              height={58}
+              alt="logo_12"
+              className="w-[250px]"
+            />
+            <Image
+              src="/images/section_2/starnet.svg"
+              width={300}
+              height={58}
+              alt="Startnet Logo"
+              className="w-[250px]"
+            />
+            <Image
+              src="/images/section_2/uniswap.svg"
+              width={300}
+              height={58}
+              alt="Uniswap Logo"
+              className="w-[250px]"
+            />
+          </div>
         </div>
       </div>
       <hr className="w-[100%] h-[1px] bottom-[0] left-[0] z-10"></hr>
