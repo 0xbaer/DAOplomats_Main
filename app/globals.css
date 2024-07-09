@@ -25,3 +25,48 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(calc(0%));
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-350%);
+  }
+}
+
+@media (max-width: 560px) {
+  .animate-move-left-to-right {
+    animation: moveLeftToRight 60s linear infinite;
+  }
+}
+
+@media (max-width: 560px) {
+  .animate-move-right-to-left {
+    animation: moveRightToLeft 60s linear infinite;
+  }
+}
+
+@keyframes partner {
+  0% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(calc(0));
+  }
+}
+
+@media (max-width: 560px) {
+  .partner-animate {
+    animation: partner 10s linear infinite alternate;
+  }
+}
