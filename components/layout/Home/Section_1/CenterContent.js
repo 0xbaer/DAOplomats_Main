@@ -11,7 +11,7 @@ export default function CenterContent() {
       <div className="flex flex-col w-fit items-center z-10">
         <h1
           className={
-            "text-[50px] sm:text-[80px] lg:text-[140px] text-[#DFE225] " +
+            "-ml-3 sm:-ml-0 text-[60px] sm:text-[80px] lg:text-[140px] text-[#DFE225] " +
             Philosopher.className
           }
         >
@@ -19,12 +19,13 @@ export default function CenterContent() {
         </h1>
         <h1
           className={
-            "text-[50px] sm:text-[80px] lg:text-[140px] text-[#FCFBEB] lg:-mt-[70px] text-center " +
+            "-ml-3 sm:-ml-0 text-[60px] sm:text-[80px] lg:text-[140px] text-[#FCFBEB] lg:-mt-[70px] text-center " +
             Philosopher.className
           }
         >
           Solved Professionally
         </h1>
+
         <div className="mt-[60px] px-[10px] gap-[20px] w-full flex flex-col lg:flex-row items-center justify-between">
           <p
             className={
@@ -32,10 +33,18 @@ export default function CenterContent() {
               Helvetica.className
             }
           >
-            Tailored governance solutions by our experts streamline decision-
-            <br /> making in your DAO, blending the best of traditional and
-            decentralized
-            <br /> frameworks for enhanced transparency and accountability.
+            <span className="md:block">
+              Tailored governance solutions by our experts streamline decision-
+            </span>
+
+            <span className="md:block">
+              making in your DAO, blending the best of traditional and
+              decentralized
+            </span>
+
+            <span className="md:block">
+              frameworks for enhanced transparency and accountability.
+            </span>
           </p>
           <Button
             label={"Delegate"}

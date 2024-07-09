@@ -3,16 +3,16 @@ import { Helvetica, Philosopher, Urbanist } from "@/components/ui/fonts";
 
 export default function Section_3() {
   return (
-    <div className="w-full flex flex-col gap-[96px] py-[103px] relative bg-[#333F3D]">
-      <div className="flex flex-col md:flex-row items-center justify-between w-full px-[60px] h-[331px] relative">
+    <div className="w-full flex flex-col gap-10 md:gap-[96px] py-[103px] relative bg-[#333F3D]">
+      <div className="flex flex-col md:flex-row items-start md:items-center justify-between w-full px-[60px] md:h-[331px] relative">
         <h1
           className={
-            "text-[#FCFBEB] text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] " +
+            "text-[#FCFBEB] text-[50px] sm:text-[80px] lg:text-[120px] md:leading-[125px] " +
             Philosopher.className
           }
         >
           Working to
-          <span className="text-[#DFE225]"> DAO it</span>
+          <span className="text-[#DFE225] block md:inline-block"> DAO it</span>
         </h1>
         {/* <div className="flex items-center justify-center w-[350px] md:w-[408px] text-white text-center">
           Donec luctus orci eros, eget mollis turpis gravida sed. Vestibulum id

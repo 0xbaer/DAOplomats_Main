@@ -10,19 +10,19 @@ export default function Section_7() {
         height={600}
         className="mb-56 hidden lg:block"
       />
-      <div className="flex flex-col 2xl:flex-row justify-center items-center w-[95%] md:w-[80%] p-6 gap-[30px] 2xl:gap-[100px] lg:absolute  lg:bottom-[12%]">
+      <div className="flex flex-col 2xl:flex-row justify-center items-center w-full md:w-[80%] p-0 md:p-6 gap-[30px] 2xl:gap-[100px] lg:absolute  lg:bottom-[12%]">
         <h1
           className={
-            "text-[#FCFBEB] text-[50px] sm:text-[80px] lg:text-[120px] leading-[125px] flex-none  " +
+            "text-[#FCFBEB] text-6xl md:text-[50px] sm:text-[80px] lg:text-[120px] md:leading-[125px] flex-none w-full " +
             Philosopher.className
           }
         >
-          What Our <br />
+          What Our <br className="md:block hidden" />
           <span className="text-[#DFE225]">Client </span>
           Said
         </h1>
         <div className="bg-[#333333]">
-          <div className="text-[#FCFBEB] p-10 w-[280px] md:w-[624.98px] font-normal">
+          <div className="text-[#FCFBEB] p-10 w-full md:w-[624.98px] font-normal">
             DAOplomats have been outstanding delegates within the 1inch DAO. We
             have continued to be impressed by their outstanding professionalism
             and their unwavering commitment to their core values. Their
