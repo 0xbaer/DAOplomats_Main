@@ -44,12 +44,16 @@ body {
   }
 }
 
-.animate-move-left-to-right {
-  animation: moveLeftToRight 60s linear infinite;
+@media (max-width: 560px) {
+  .animate-move-left-to-right {
+    animation: moveLeftToRight 60s linear infinite;
+  }
 }
 
-.animate-move-right-to-left {
-  animation: moveRightToLeft 60s linear infinite;
+@media (max-width: 560px) {
+  .animate-move-right-to-left {
+    animation: moveRightToLeft 60s linear infinite;
+  }
 }
 
 @keyframes partner {
@@ -61,6 +65,8 @@ body {
   }
 }
 
-.partner-animate {
-  animation: partner 10s linear infinite alternate;
+@media (max-width: 560px) {
+  .partner-animate {
+    animation: partner 10s linear infinite alternate;
+  }
 }
