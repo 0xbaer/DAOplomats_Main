@@ -10,7 +10,7 @@ export default function Section_7() {
         height={600}
         className="mb-56 hidden lg:block"
       />
-      <div className="flex flex-col 2xl:flex-row justify-center items-center w-full md:w-[80%] p-0 md:p-6 gap-[30px] 2xl:gap-[100px] lg:absolute  lg:bottom-[12%]">
+      <div className="flex flex-col justify-center items-center w-full md:w-[80%] p-0 md:p-6 gap-[30px] 2xl:gap-[100px] lg:absolute  lg:bottom-[12%]">
         <h1
           className={
             "text-[#FCFBEB] text-6xl md:text-[50px] sm:text-[80px] lg:text-[120px] md:leading-[125px] flex-none w-full " +
