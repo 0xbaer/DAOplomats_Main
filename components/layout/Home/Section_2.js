@@ -96,7 +96,7 @@ export default function Section_2() {
         </p>
 
         <div className="space-y-20 md:space-y-28 mx-auto">
-          <div className="w-full flex xl:flex-row md:flex-col gap-10 justify-between  2xl:px-48 items-center xl:px-40 lg:px-32 -ml-8 overflow-hidden md:overflow-visible">
+          <div className="w-full flex xl:flex-row md:flex-col gap-10 justify-between  2xl:px-48 items-center xl:px-40 lg:px-32 -ml-8 md:-ml-0 overflow-hidden md:overflow-visible">
             <div className="flex items-center gap-10 animate-move-left-to-right">
               <Image
                 src="/images/section_2/logo_2.png"
@@ -172,8 +172,8 @@ export default function Section_2() {
             </div>
           </div>
 
-          <div className="w-full flex xl:flex-row md:flex-col gap-10 justify-between items-center overflow-hidden md:overflow-visible">
-            <div className="flex items-center gap-10 animate-move-right-to-left">
+          <div className="w-full flex md:flex-col gap-10 justify-between items-center overflow-hidden md:overflow-visible">
+            <div className="flex items-center gap-10 animate-move-right-to-left w-full">
               <Image
                 src="/images/section_2/logo_1.png"
                 width={300}
@@ -247,7 +247,7 @@ export default function Section_2() {
             </div>
           </div>
 
-          <div className="w-full xl:flex-row md:flex-col gap-10 justify-between 2xl:px-48 items-center xl:px-40 overflow-hidden md:overflow-visible md:flex hidden">
+          <div className="w-full md:flex-col gap-10 justify-between 2xl:px-48 items-center xl:px-40 overflow-hidden md:overflow-visible md:flex hidden">
             <div className="flex items-center gap-10">
               <Image
                 src="/images/section_2/logo_12.svg"
